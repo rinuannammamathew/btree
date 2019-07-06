@@ -34,7 +34,7 @@ def sort(array)
           new_node = BinaryTree.new(value)
           @node.left = new_node
           @node = new_node
-          #byebug
+          
           break
         else
           @node= @node.left
